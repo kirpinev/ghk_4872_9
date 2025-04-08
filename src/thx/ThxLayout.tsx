@@ -6,9 +6,9 @@ import { appSt } from "../style.css.ts";
 
 export const ThxLayout = () => {
   const submit = () => {
-    // window.gtag("event", "4490_get_real_sub", {
-    //   variant_name: "4490_1",
-    // });
+    window.gtag("event", "4872_get_sub", {
+      variant_name: "4872_9",
+    });
   };
 
   return (
@@ -36,7 +36,7 @@ export const ThxLayout = () => {
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile block view="primary" href="" onClick={submit}>
+        <ButtonMobile block view="primary" href="https://online.alfabank.ru/" onClick={submit}>
           Спасибо, понятно!
         </ButtonMobile>
       </div>
